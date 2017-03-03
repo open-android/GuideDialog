@@ -57,5 +57,5 @@ StepDialog.getInstance()
                         .show(getFragmentManager());
 ```
 
-![](http://upload-images.jianshu.io/upload_images/4037105-a3a585e3c420b277.gif?imageMogr2/auto-orient/strip)
+![](http://upload-images.jianshu.io/upload_images/4037105-e2d0136ba815dfdb.gif?imageMogr2/auto-orient/strip)
 
