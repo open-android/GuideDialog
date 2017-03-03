@@ -3,8 +3,8 @@
 
 # Preview
 
-![](http://upload-images.jianshu.io/upload_images/4037105-792ce84d29b4f98e.gif?imageMogr2/auto-orient/strip)
 
+![](http://upload-images.jianshu.io/upload_images/4037105-792ce84d29b4f98e.gif?imageMogr2/auto-orient/strip)
 
 
 ### 1. 在project的build.gradle添加如下代码(如下图)
