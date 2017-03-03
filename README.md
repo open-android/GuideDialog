@@ -2,12 +2,22 @@
 一行代码实现ofo app首次注册时的步骤控件
 
 # Preview
-![stepdialog](gif/stepdialog.gif)
+![](http://upload-images.jianshu.io/upload_images/4037105-4f058164ab30e9ee.gif?imageMogr2/auto-orient/strip)
 
-# Gradle
+
+
+### 1. 在project的build.gradle添加如下代码(如下图)
+
+	allprojects {
+	    repositories {
+	        ...
+	        maven { url "https://jitpack.io" }
+	    }
+	}
+### 2. 添加依赖
 ```
 dependencies {
-    compile 'com.zqg:library:1.0.0'
+     compile 'com.github.open-android:GuideDialog:0.1.0'
 }
 ```
 
@@ -34,7 +44,8 @@ StepDialog.getInstance()
                         .setPageTransformer(new DepthPageTransformer())
                         .show(getFragmentManager());
 ```
-![t1](gif/t1.gif)
+
+![](http://upload-images.jianshu.io/upload_images/4037105-c21409f6f3ff95b9.gif?imageMogr2/auto-orient/strip)
 
 ### ZoomOutPageTransformer方式
 #### 示例
@@ -44,30 +55,5 @@ StepDialog.getInstance()
                         .setPageTransformer(new ZoomOutPageTransformer())
                         .show(getFragmentManager());
 ```
-![t2](gif/t2.gif)
+![](http://upload-images.jianshu.io/upload_images/4037105-9797c57bfff773f8.gif?imageMogr2/auto-orient/strip)
 
-# License
-
-```
-MIT License
-
-Copyright (c) 2017 祝起光
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
