@@ -27,7 +27,7 @@ dependencies {
 
 # Usage
 ```
-StepDialog.getInstance()
+ItHeiMaDialog.getInstance()
                 .setImages(new int[]{R.drawable.new_user_guide_1, R.drawable.new_user_guide_2, R.drawable.new_user_guide_3, R.drawable.new_user_guide_4})
                 .show(getFragmentManager());
 ```
@@ -43,7 +43,7 @@ StepDialog.getInstance()
 ### DepthPageTransformer方式
 #### 示例
 ```
-StepDialog.getInstance()
+ItHeiMaDialog.getInstance()
                         .setImages(new int[]{com.itheima.dialogviewpager.R.drawable.new_user_guide_1, com.itheima.dialogviewpager.R.drawable.new_user_guide_2, com.itheima.dialogviewpager.R.drawable.new_user_guide_3, com.itheima.dialogviewpager.R.drawable.new_user_guide_4})
                         .setPageTransformer(new DepthPageTransformer())
                         .show(getFragmentManager());
@@ -54,7 +54,7 @@ StepDialog.getInstance()
 ### ZoomOutPageTransformer方式
 #### 示例
 ```
-StepDialog.getInstance()
+ItHeiMaDialog.getInstance()
                         .setImages(new int[]{com.itheima.dialogviewpager.R.drawable.new_user_guide_1, com.itheima.dialogviewpager.R.drawable.new_user_guide_2, com.itheima.dialogviewpager.R.drawable.new_user_guide_3, com.itheima.dialogviewpager.R.drawable.new_user_guide_4})
                         .setPageTransformer(new ZoomOutPageTransformer())
                         .show(getFragmentManager());
