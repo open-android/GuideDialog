@@ -1,11 +1,13 @@
 
 一行代码实现ofo app首次注册时的步骤控件
 
+* 项目地址：[https://github.com/open-android/GuideDialog](https://github.com/open-android/GuideDialog)
+
 ![stepdialog](gif/stepdialog.gif)
 
 欢迎关注微信公众号
 
-![](http://upload-images.jianshu.io/upload_images/4037105-2d09a8e50f063bb5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](http://oi5nqn6ce.bkt.clouddn.com/itheima/booster/code/qrcode.png)
 
 
 ### 1. 在project的build.gradle添加如下代码(如下图)
