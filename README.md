@@ -44,7 +44,7 @@ StepDialog.getInstance()
 #### 示例
 ```
 StepDialog.getInstance()
-                        .setImages(new int[]{com.zqg.dialogviewpager.R.drawable.new_user_guide_1, com.zqg.dialogviewpager.R.drawable.new_user_guide_2, com.zqg.dialogviewpager.R.drawable.new_user_guide_3, com.zqg.dialogviewpager.R.drawable.new_user_guide_4})
+                        .setImages(new int[]{com.itheima.dialogviewpager.R.drawable.new_user_guide_1, com.itheima.dialogviewpager.R.drawable.new_user_guide_2, com.itheima.dialogviewpager.R.drawable.new_user_guide_3, com.itheima.dialogviewpager.R.drawable.new_user_guide_4})
                         .setPageTransformer(new DepthPageTransformer())
                         .show(getFragmentManager());
 ```
@@ -55,7 +55,7 @@ StepDialog.getInstance()
 #### 示例
 ```
 StepDialog.getInstance()
-                        .setImages(new int[]{com.zqg.dialogviewpager.R.drawable.new_user_guide_1, com.zqg.dialogviewpager.R.drawable.new_user_guide_2, com.zqg.dialogviewpager.R.drawable.new_user_guide_3, com.zqg.dialogviewpager.R.drawable.new_user_guide_4})
+                        .setImages(new int[]{com.itheima.dialogviewpager.R.drawable.new_user_guide_1, com.itheima.dialogviewpager.R.drawable.new_user_guide_2, com.itheima.dialogviewpager.R.drawable.new_user_guide_3, com.itheima.dialogviewpager.R.drawable.new_user_guide_4})
                         .setPageTransformer(new ZoomOutPageTransformer())
                         .show(getFragmentManager());
 ```
