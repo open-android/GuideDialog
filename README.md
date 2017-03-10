@@ -1,7 +1,7 @@
 
 一行代码实现ofo app首次注册时的步骤控件
 
-![](http://upload-images.jianshu.io/upload_images/4037105-792ce84d29b4f98e.gif?imageMogr2/auto-orient/strip)
+![stepdialog](gif/stepdialog.gif)
 
 欢迎关注微信公众号
 
@@ -47,7 +47,7 @@ StepDialog.getInstance()
                         .show(getFragmentManager());
 ```
 
-![](http://upload-images.jianshu.io/upload_images/4037105-08d258e6b4cd2b62.gif?imageMogr2/auto-orient/strip)
+![t1](gif/t1.gif)
 
 ### ZoomOutPageTransformer方式
 #### 示例
@@ -57,6 +57,6 @@ StepDialog.getInstance()
                         .setPageTransformer(new ZoomOutPageTransformer())
                         .show(getFragmentManager());
 ```
+![t1](gif/t1.gif)
 
-![](http://upload-images.jianshu.io/upload_images/4037105-e2d0136ba815dfdb.gif?imageMogr2/auto-orient/strip)
 
